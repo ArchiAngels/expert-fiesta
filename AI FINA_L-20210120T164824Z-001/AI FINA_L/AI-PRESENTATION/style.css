@@ -1,0 +1,65 @@
+@font-face {
+    font-family: _100;
+    src: url('Montserrat/Montserrat-Thin.ttf');
+  }
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    min-width:100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    background-size: contain;
+    background-color: #000;
+    font-family:_100;
+}
+.begin{
+    background-image: url('img/back1.jpg');
+}
+.continue{
+    background-image: url('img/back.jpeg');
+}
+.test{
+    min-width:100vw;
+    height:100vh;
+    font-size: 1.5rem;
+    color:white;
+    background-color: #00000066;
+    transition: margin 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.test__pict{
+    display: flex;
+}
+.test__num{
+    margin-top:10px;
+}
+.active{
+    margin-left:0vw;
+}
+.from-left{
+    margin-left:-100vw;
+}
+.from-tight{
+    margin-left:150vw;
+}
+
+/* 
+background-image: 
+
+        url(
+            'https://klv-oboi.ru/img/for_page/kirpich-2.jpg'
+            'https://funart.pro/uploads/posts/2020-04/thumbs/1587311410_48-p-chernie-foni-v-khoroshem-kachestve-111.jpg' 
+            
+             'https://i.pinimg.com/originals/cc/2f/1d/cc2f1dde523ddf28d9a118046ec54495.jpg' 
+            'https://365psd.ru/images/backgrounds/bg-dark-4774.jpg' 
+             'https://i.pinimg.com/originals/31/1e/ab/311eab307abe1ab93f029a70f57864ad.jpg' 
+        'https://lh3.googleusercontent.com/proxy/AIhWvowfnQYQwCp-Xi_QiVyZVL5Zm2hoXn1QbUg1F84Xab6Qy5U8L8h6Jok5-6nSYJJulHgU-uv2Cq-sY-gh-z5H_bbRSC_zrq82Ptoco33H96WJk6sb'
+        ); */
